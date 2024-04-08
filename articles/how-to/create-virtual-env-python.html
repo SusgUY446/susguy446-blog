@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to create virtual enviroment Python</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tech Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <article class="single-post">
+                <h2>Creating a virtual enviroment (venv) in Python</h2>
+                <p class="meta">Posted by SusgUY446 on April 8, 2024</p>
+                <h3>Hey, Today i will be teaching you how to create a venv in python</h3>
+                <h4>What is a virtual enviroment (venv)?</h4>
+                <p>A virtual enviroment is like its own little python installation inside your project. it can be used to install specific versions of packages when your system doesnt support newer variants.</p><br>
+
+                <h4>How to create a virtual enviroment (venv)</h4>
+                <p style="font-size: 150%;">Step 1</p>
+                <p>First. Open a new Terminal. This is what it looks like on Windows 11</p><br>
+                <img src="images/terminal-win.png" alt="Windows 11 Terminal"><br><br>
+
+                <p style="font-size: 150%;">Step 2</p>
+                <p>Enter this command into your terminal</p><br>
+                <pre>python3 -M venv venv</pre><br><br>
+
+                <p style="font-size: 150%;">Step 3</p>
+                <p>Activating your virtual enviroment</p>
+                <p>On Windows run</p>
+                <pre>.\venv\scripts\activate</pre><br>
+                <p>On MacOS and Linux run</p>
+                <pre>source venv/bin/activate</pre>
+
+                <p style="font-size: 150%;">Step 4</p>
+                <p>Now that your virtual enviroment is activated you can install the packages you need.</p>
+                <p>Also read <a href="install-packages-with-pip.html">Installing Packages With pip</a></p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SusgUY446. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
