@@ -1,0 +1,20 @@
+@import url(../style.css);
+
+/* Add this CSS to your style.css file */
+
+/* Ensure images within the article are responsive */
+.single-post img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline spacing */
+    margin: auto; /* Center the image horizontally */
+}
+
+/* Optionally, you can add some padding to the images for better spacing */
+.single-post img {
+    padding: 10px; /* Adjust as needed */
+}
+
+.content {
+    text-align: center; /* Center-align all text within the content section */
+}
